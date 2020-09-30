@@ -1,0 +1,83 @@
+/* Variables de color y de redes sociales */
+:root {
+    --color1: rgba(12, 54, 84, 1);
+    --color2: rgba(187, 1, 1, 1);
+    --color3: rgba(2, 156, 251, 1);
+    --facebook: #3b5999;
+    --instagram: #e4405f;
+    --twitter: #55acee;
+    --youtube: #fc0202;
+    --linkedin: #0077B5;
+}
+
+footer {
+    background-color: var(--color1);
+    color: white;
+}
+
+.footer-img {
+    display: block;
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+footer button {
+    display: block!important;
+    margin: 1.1em auto 0;
+    transform: scale(1.1);
+}
+
+footer div {
+    margin-bottom: .5em;
+}
+
+footer a {
+    font-size: 1.3rem;
+    color: white;
+}
+
+.facebook-icon:hover{
+    transform: scale(1.5);
+    color: #fff;
+    border-color: #fff;
+    background: var(--facebook);
+    padding: 4px 10px 4px 10px;
+    border-radius: 5%;
+    text-decoration-line: none;
+}
+
+.youtube-icon:hover{
+    transform: scale(1.5);
+    color: #fff;
+    border-color: #fff;
+    background: var(--youtube);
+    padding: 4px 10px 4px 10px;
+    border-radius: 5%;
+    text-decoration-line: none;
+}
+
+.instagram-icon:hover{
+    transform: scale(1.5);
+    color: #fff;
+    border-color: #fff;
+    background: var(--instagram);
+    padding: 4px 10px 4px 10px;
+    border-radius: 5%;
+    text-decoration-line: none;
+}
+
+/* Cherry */
+.cherry{
+    margin: 0;
+    padding: 0;
+    font-size: .9rem;
+}
+
+.cherry a {
+    font-weight: 700;
+    font-size: .9rem;
+    color: var(--color3);
+}
