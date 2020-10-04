@@ -81,3 +81,9 @@ footer a {
     font-size: .9rem;
     color: var(--color3);
 }
+
+/* CONTACTANOS */
+.contacto-top img {
+    width: 100%;
+    height: auto;
+}
