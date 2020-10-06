@@ -82,6 +82,64 @@ footer a {
     color: var(--color3);
 }
 
+/* boton de Whatsapp */
+/* Ir arriba*/ 
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+ 
+/* --------------------------- START - Nosotros --------------------------- */
+main {
+    background-image: url(https://images.unsplash.com/photo-1564995408557-f12ea1e4ecf1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.nosotros-messages {
+    background-color: rgba(200, 30, 30, .8);
+    padding: 1.3em;
+    margin-bottom: 5em;
+    color: white;
+}
+
+.nosotros-messages:last-child {
+    margin-bottom: 0;
+}
+
+/* --------------------------- END - Nosotros --------------------------- */
+
+/* --------------------------- START - Contactanos --------------------------- */
+.contacto-top img {
+    width: 100%;
+    height: auto;
+}
+
+.contacto-map {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* --------------------------- END - Contactanos --------------------------- */
+
+
+/* START - Estilos de RICHARD */
 /* ------------------------  stylesheet slider  ------------------------*/
 /* Carousel base class */
 .carousel {

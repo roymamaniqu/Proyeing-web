@@ -32,7 +32,7 @@
                  <a class="nav-link" href="views/index.html"><i class="fas fa-search"></i> Inicio <span class="sr-only">(current)</span></a>
                </li>
                <li class="nav-item">
-                 <a class="nav-link" href="views/secciones/nosostros.html" style="padding-right: 1.5rem;padding-left: 1.5rem;">Nosotros</a>
+                 <a class="nav-link" href="views/secciones/stros.html" style="padding-right: 1.5rem;padding-left: 1.5rem;">Nosotros</a>
                </li>
                <li class="nav-item">
                  <a class="nav-link " href="views/secciones/eventos.html" style="padding-right: 1.5rem;padding-left: 1.5rem;">Eventos</a>
@@ -271,7 +271,7 @@
         <div class="row">
             <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                 <div class="pt-5">
-                    <img class="footer-img" src="img/LOGO PROYEING.png" alt="logo de PROYEING">
+                    <img class="footer-img" src="https://lh3.googleusercontent.com/t5R0qv5arJ88UGcekLUQbwCUwtP2R8y11NSr-p6KLOCYqgZKYSFOgmhktNiCLRKyRHaqpvhSIssb3pH5hE_h0q3ahbO84bUx-clwWiNyH6ri-12jvul4Sg6WLHnPzg8Ts0I2uDkei-SFEKGf3dV0NnbdhjcGlPTpc4BZLpwz4AIsC78K_ptZRWB42KBIeWyBjv3WZXHaHkFJe1p8MjGJlcyg4d8Rztt-Vo8gU_Pj9ApnmZNIXV_LCzoX9MZ-2uwP_y_WxZmicEbLi_EYygfuPmaIxoEtAOiLyIVESqfme7_KLKuk8GWzMelFiShuGrTYn0wLpV6Ol7bTGsTGN3VMOyK0kHGEctNn0EQN0w-Xb6M-DOXCz0gQJJ9LLoG8__kyfyA_LV7WoG4SD9aeiEFbxGCYlA5MDq2viBki72COb96b3YEXnwvE21vpXm6MhOQ1pA_FjGn_-ROQ_ILRAZ37OeP2waCJF9yAcsPdX1kdsaXR3-NDMNUa1xGOSoDrMj53HK7QcgVQpUDPhO7H4crhBSsKh3QFzbV3geZrmnqM1B-KwP97gZhwe2-o9yKTaOx7H56HfDPruHM3YvhIFdW5KccjHm4zMEikhG4c3psQFHqQNVNJksA3q31b4SJ4svZb8QFxjioLXsedOk_0EWKlva7aNJRDJe45qdwpjvZNIZyeInTEFPZA1sxSKLdEDQ=w318-h226-no?authuser=1" alt="logo de PROYEING">
                 </div>
             </div>
 
@@ -300,7 +300,11 @@
                     </div>
 
                     <textarea class="form-control my-2" name="message" type="text" placeholder="Escribe tu Comentario" aria-label="Search" cols="50" rows="6" required></textarea>
-                    
+                    <!-- Asunto del mail -->
+                    <input type="hidden" name="_subject" value="contacto desde tu www.proyeing.com">
+                    <!-- Redigira a otra pagina -->
+                    <input type="hidden" name="_next" value="/"
+                    >
                     <button type="submit" class="btn btn-light font-weight-bold">ENVIAR</button>
                   </form>
 
@@ -316,7 +320,7 @@
                 <div>
                     <a class="instagram-icon" target="_blank" href="#"><i class="fab fa-instagram"></i> Instagram</a>
                 </div>
-            </div>
+            </div><!-- col-12 col-sm-12 col-md-6 col-lg-3 -->
             <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                 <h3 class="text-center">Información de contacto</h3>
 
@@ -326,7 +330,7 @@
                 <div>
                     <a target="_blank" href="#"><i class="fas fa-envelope"></i> proyeing@proyeing.com</a>
                 </div>
-            </div>
+            </div><!-- col-12 col-sm-12 col-md-6 col-lg-3 -->
         </div>
         <!-- Copyright -->
         <div class="copyright">
@@ -335,11 +339,23 @@
                 <a href="#">Richard</a>, <a href="#">Roy</a> & <a href="#">Wilder</a></p>
         </div>
     </footer>
+
+    <!-- Boton flotante de WHATSAPP-->  
+    <div>
+      <a href="https://api.whatsapp.com/send?phone=51930761030&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n,%20por%20favor." class="float" target="_blank">
+        <i class="fab fa-whatsapp my-float"></i>
+      </a>
+    </div>
+
+    
     <!-- ROY - termina aca -->
 
     <!-- importando JS de BOOTSTRAP -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-</body>
+    <script src="/js/main.js"></script>
+    
+   
+  </body>
 </html>
