@@ -104,12 +104,11 @@ footer a {
 }
  
 /* --------------------------- START - Nosotros --------------------------- */
-main {
+.main-nosotros {
     background-image: url(https://images.unsplash.com/photo-1564995408557-f12ea1e4ecf1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80);
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 
 .nosotros-messages {
     background-color: rgba(200, 30, 30, .8);
@@ -130,8 +129,22 @@ main {
     height: auto;
 }
 
+#my-form {
+    box-sizing: content-box;
+}
+
+.contacto-form {
+    padding: 2em;
+    margin: 2em .5em 0;
+    border: 1px solid black;
+}
+
+#my-form label {
+    display: block;
+}
+
 .contacto-map {
-    width: 80%;
+    width: 90%;
     margin-right: auto;
     margin-left: auto;
 }
