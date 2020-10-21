@@ -24,67 +24,46 @@
     <!-- Contenido central -->
     <main>
         <section class="contacto-top">
-            <img src="https://lh3.googleusercontent.com/Zf4qJxJi4uk5YYnftegQQK4XJNpzskEqHBEPPeAxdLoREmDnu6SUmj3UmDDumsPK7eg7XTjN5s9XyktgsK8YSfZqucxWgNnmhqB88DPITbdmGmw8F3sw9e7tKSQowzMc-8DouzSZzIn0HfIkR0Uy2I7yEVkUwM5gZ1d94U0uyI4ODp3iK2ovT3ONaIHmPjGvdFXTRbQbWwtI8J3uJfSMzf_jfayi4V2hcLx0YhKOjchACtVTQXrIpNvO2XF8cObGyL8GKae32MD3CLRihppHxXY4TYjQNgYkRoU9OA8XB1ORen7jKGpZEgR7THXc50WtnBZQonGtTXYopm8wysyHxiwM_4znvBy_N1HB52kXbJmG3fLx1Nrk43iiN9CeDkkKN-rL8NeJHhdS6kgNnI1_U_bjIJC-Gw2x0rl83cfYnTepfRfnCTaH0xrT4wXcADyoEl5Hd03-q6vx_BNt5Xd5gR7v1nTA9H09iNn3YVM-NhExILzrEbpSxqjOeyAhIOMvKsYPWpK9uIPch1cazDMfJD0_jKhlul2IWltnSVbcwiMC4V7UCxeR39oRKsy_DiCcApu-jukDTzVNzbuADRqOg7Ke-Amb5cpk5YAdn2tnEL7wOeqr5ZMLm1BYRL_RveIui0bZfnkO5DHR-hmMrFOflJsBlkty0X5OKKJYg6zqWdtYRCLF_q54Gek_S1Q3YwU=w799-h260-no?authuser=0" alt="Contactanos">
+            <img src="https://i.imgur.com/p5kC2lW.jpg" alt="Contactanos">
         </section>
 
         <section class="my-5 container">
             <div class="row">
                 <!-- Formulario de contacto -->
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                    <div class="contacto-form">
-                        <div class="contacto-form-title">
-                            <h2>Si tienes alguna duda o consulta, escribenos!</h2>
-                        </div>
-                        <div class="row">
-                            <!-- imagen a la izquierda -->
-                            <div class="col-3 col-sm-9 col-md-3 col-lg-3">
-                                img
+                    <div class="contacto-form mt-0 py-3 px-4">
+                        <div class="row contacto-form-header">
+                            <div class="col-9 col-sm9 col-md-9 col-lg-9">
+                                <h2>Si tienes alguna duda o consulta, escribenos!</h2>
                             </div>
-                            <div class="col-3 col-sm-9 col-md-9 col-lg-9">
-                                <form action="" method="POST" id="my-form" _lpchecked="1">
-                                    <label for="fullName" class="mb-0">Nombres y apellidos</label>
-                                    <input type="text" class="form-control mb-2" id="fullName" name="full-name" placeholder="¿Como te llamas?" required>
+                            <div class="col-3 col-sm-3 col-md-3 col-lg-3">
+                                <span class="contacto-form-icon"><i class="far fa-id-card"></i></span>
+                            </div>
+
+                            
+                        </div>
+                        <hr>
+                        <div class="row contactanos-form">
+                            <div class="row">
+                                <form action="https://formspree.io/f/mvovgnyb" method="POST" id="my-form" _lpchecked="1">
+                                    <label for="fullName" class="mb-0 mx-auto">Nombres y apellidos</label>
+                                    <input type="text" class="form-control mb-2 mx-auto" id="fullName" name="full-name" placeholder="¿Como te llamas?" required>
                                     
                                     <label for="email"  class="mb-0">Correo electrónico</label>
                                     <input type="email" class="form-control mb-2" placeholder="Correo electrónico" id="email" aria-label="search" name="email" required>
 
                                     <label for="phone"  class="mb-0">Telefono / celular</label>
-                                    <input type="tel" class="form-control mb-2" placeholder="Número de contacto" id="phone" aria-label="search" name="email" required>
+                                    <input type="tel" class="form-control mb-2" placeholder="Número de contacto" id="phone" aria-label="search" name="phone" required>
 
                                     <label for="message"  class="mb-0">Dejanos un mensaje</label>
                                     <textarea class="form-control my-2" name="message" type="text" id="message" placeholder="Escribe tu Comentario" aria-label="Search" cols="50" rows="6" required></textarea>
                         
-                                    <button type="submit" class="btn btn-light font-weight-bold">ENVIAR</button>
+                                    <button type="submit" class="btn btn-danger font-weight-bold">ENVIAR</button>
 
                                 </form>
                             </div>
                         </div>
                     </div>
-<!-- 
-                    <form action="https://formspree.io/f/mvovgnyb" method="POST" id="my-form" _lpchecked="1">
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
-                            </div>
-                            <input type="text" class="form-control mb-2" placeholder="Nombres y apellidos" id="name" aria-label="search" name="nombres" required="" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">
-                        </div>
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text" id="basic-addon2"><i class="fas fa-envelope"></i></span>
-                            </div>
-                            <input type="email" class="form-control mb-2" placeholder="Correo electrónico" id="email" aria-label="search" name="email" required="">
-                        </div>
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text" id="basic-addon3"><i class="fas fa-phone"></i></span>
-                            </div>
-                            <input type="tel" class="form-control mb-2" placeholder="Teléfono / celular" id="phone" aria-label="search" name="phone" required="">
-                        </div>
-    
-                        <textarea class="form-control my-2" name="message" type="text" placeholder="Escribe tu Comentario" aria-label="Search" cols="50" rows="6" required=""></textarea>
-                        
-                        <button type="submit" class="btn btn-light font-weight-bold">ENVIAR</button>
-                    </form> -->
                     <div id="status"></div>
                 </div>
                 <!-- col-12 col-sm-12 col-md-6 col-lg-6 -->
@@ -106,6 +85,91 @@
 
 
     </main>
+
+    <!-- ROY - inicia aca -->
+    <footer class="container-fluid py-3">
+        <!-- Contenido principal del footer -->
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                <div class="pt-5">
+                    <img class="footer-img" src="https://i.imgur.com/QeUj6Ko.png">
+                </div>
+            </div>
+
+            <!-- Formulario de dejar un mensaje -->
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                <h3 class="text-center">Dejanos un mensaje:</h3>
+
+                <form action="https://formspree.io/f/mvovgnyb" method="POST">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
+                        </div>
+                        <input type="text" class="form-control mb-2" placeholder="Nombres y apellidos" id="name" aria-label="search" name="nombres" required>
+                    </div>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon2"><i class="fas fa-envelope"></i></span>
+                        </div>
+                        <input type="email" class="form-control mb-2" placeholder="Correo electrónico" id="email" aria-label="search" name="email" required>
+                    </div>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon3"><i class="fas fa-phone"></i></span>
+                        </div>
+                        <input type="tel" class="form-control mb-2" placeholder="Teléfono / celular" id="phone" aria-label="search" name="phone" required>
+                    </div>
+
+                    <textarea class="form-control my-2" name="message" type="text" placeholder="Escribe tu Comentario" aria-label="Search" cols="50" rows="6" required></textarea>
+                    <!-- Asunto del mail -->
+                    <input type="hidden" name="_subject" value="Mensaje desde www.proyeing.com">
+                    <!-- Redigira a otra pagina -->
+                    <input type="hidden" name="_next" value="/"
+                    >
+                    <button type="submit" class="btn btn-light font-weight-bold">ENVIAR</button>
+                  </form>
+
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                <h3 class="text-center">Redes sociales</h3>
+                <div>
+                    <a class="facebook-icon" target="_blank" href="https://www.facebook.com/proyeing"><i class="fab fa-facebook-square"></i> Facebook</a>
+                </div>
+                <div>
+                    <a class="youtube-icon" target="_blank" href="https://www.youtube.com/channel/UC-8JO80anOMWhen8BexYaeA/?guided_help_flow=5"><i class="fab fa-youtube"></i> You Tube</a>
+                </div>
+                <div>
+                    <a class="instagram-icon" target="_blank" href="https://www.instagram.com/proyeing/"><i class="fab fa-instagram"></i> Instagram</a>
+                </div>
+            </div><!-- col-12 col-sm-12 col-md-6 col-lg-3 -->
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                <h3 class="text-center">Información de contacto</h3>
+
+                <div>
+                    <a target="_blank" href="https://api.whatsapp.com/send?phone=51992847366&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n,%20por%20favor."><i class="fas fa-phone"></i> 992 847 366</a>
+                </div>
+                <div>
+                    <a target="_blank" href="mailto:proyeing.ingenieria@gmail.com"><i class="fas fa-envelope"></i> proyeing.ingenieria@gmail.com</a>
+                </div>
+            </div><!-- col-12 col-sm-12 col-md-6 col-lg-3 -->
+        </div>
+        <!-- Copyright -->
+        <div class="copyright">
+            <p class="text-center">Todos los Derechos Reservados <i class="fas fa-copyright"></i> PROYEING</p>
+            <p class="cherry text-center">Designed by: 
+                <a href="#">Richard</a>, <a href="#">Roy</a> & <a href="#">Wilder</a></p>
+        </div>
+    </footer>
+
+    <!-- Boton flotante de WHATSAPP-->  
+    <div>
+      <a href="https://api.whatsapp.com/send?phone=51992847366&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n,%20por%20favor." class="float" target="_blank">
+        <i class="fab fa-whatsapp my-float"></i>
+      </a>
+    </div>
+
+    
+    <!-- ROY - termina aca -->
 
     <!-- importando JS de BOOTSTRAP -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

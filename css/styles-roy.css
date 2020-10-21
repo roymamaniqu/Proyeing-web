@@ -136,7 +136,42 @@ footer a {
 .contacto-form {
     padding: 2em;
     margin: 2em .5em 0;
-    border: 1px solid black;
+    box-shadow: 0 0 8px #3b5999;
+}
+
+.contacto-form-icon {
+    font-size: 5rem;
+}
+
+.contacto-form-header img {
+    width: 20%;
+    height: auto;
+    position: relative;
+    right: 5%;
+    bottom: 5%;
+    z-index: 0;
+}
+
+.row.contactanos-form {
+    justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.contactanos-form label, .contactanos-form input{
+    display: block;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contacto-form .btn {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1.5em;
+    transform: scale(1.2);
+    width: 30%;
 }
 
 #my-form label {
@@ -149,13 +184,14 @@ footer a {
     margin-left: auto;
 }
 
+
 /* --------------------------- END - Contactanos --------------------------- */
 
 
 /* START - Estilos de RICHARD */
 /* ------------------------  stylesheet slider  ------------------------*/
 /* Carousel base class */
-.carousel {
+.carousel-richard {
     margin-bottom: 4rem;
   }
   /* Carousel dimentions */
@@ -167,7 +203,7 @@ footer a {
   }
   
   /* Declare heights because of positioning of img element */
-  .carousel-item {
+  .carousel-item-richard {
     height: 36rem;
   }
   .carousel-item > img {
