@@ -39,6 +39,10 @@ footer a {
     color: white;
 }
 
+footer a:last-child{
+    font-size: 1.1rem;
+}
+
 .facebook-icon:hover{
     transform: scale(1.5);
     color: #fff;
@@ -103,11 +107,48 @@ footer a {
 	margin-top:16px;
 }
  
+/* --------------------------- START - Responsive index.html --------------------------- */
+@media (max-width: 576px) {
+    
+    footer {
+        padding-top: 0!important;
+    }
+
+    .footer-logo {
+        padding-top: 1rem!important;
+    }
+
+    footer form {
+        margin-block-end: 0;
+    }
+
+    footer a {
+        font-size: 1rem;
+    }
+
+    footer h3 {
+        font-size: 1.3rem;
+    }
+
+    .footer-btn {
+        transform: scale(.9);
+    }
+
+    /* Boton de Whatsapp */
+    .float {
+        bottom: 25px;
+        right: 15px;
+    }
+}
+
+/* --------------------------- END - Responsive index.html --------------------------- */
+
 /* --------------------------- START - Nosotros --------------------------- */
 .main-nosotros {
     background-image: url(https://images.unsplash.com/photo-1564995408557-f12ea1e4ecf1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80);
     background-size: cover;
     background-repeat: no-repeat;
+    padding: 5em;
 }
 
 .nosotros-messages {
@@ -120,6 +161,27 @@ footer a {
 .nosotros-messages:last-child {
     margin-bottom: 0;
 }
+
+/* --------------------------- START - Responsive nosotros.html --------------------------- */
+@media (max-width: 676px) {
+    .main-nosotros {
+        padding: 1em .5em;
+    }
+    
+    .main-nosotros h1, .main-nosotros h2 {
+        font-size: 2rem;
+    }
+
+    .main-nosotros p {
+        margin-bottom: 0;
+    }
+
+    .nosotros-messages {
+        padding: 1.2em;
+        margin-bottom: 2.5em;
+    }
+}
+/* --------------------------- END - Responsive nosotros.html --------------------------- */
 
 /* --------------------------- END - Nosotros --------------------------- */
 
@@ -179,11 +241,53 @@ footer a {
 }
 
 .contacto-map {
-    width: 90%;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
 }
 
+.map-info div{
+    font-size: 1.3rem;
+    margin-bottom: .3em;
+    font-weight: 400;
+}
+
+.map-info div i {
+    font-size: 1.5rem;
+}
+
+/* --------------------------- END - responsive contactanos.hmtl --------------------------- */
+@media (max-width: 676px) {
+    .contacto-container {
+        margin-top: 1em!important;
+        margin-bottom: 1em!important;
+    }
+    .contacto-form {
+        margin: 0 0 2em;
+    }
+
+    .contacto-form h2 {
+        font-size: 1.5rem;
+    }
+
+    .contacto-form-icon {
+        font-size: 3.5rem;
+        align-items: center;
+        position: relative;
+        top: .2em;
+        right: .2em;
+    }
+
+    .map-info div{
+        font-size: 1.1rem;
+        margin-bottom: .1em;
+    }
+    
+    .map-info div i {
+        font-size: 1.3rem;
+    }
+}
+/* --------------------------- END - responsive contactanos.hmtl --------------------------- */
 
 /* --------------------------- END - Contactanos --------------------------- */
 
